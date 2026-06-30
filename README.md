@@ -149,8 +149,7 @@ To support this rich feature set, the project imports **18 major open-source dep
 | Dependency | Category | Exact Architectural Purpose & Usage in Code |
 | :--- | :--- | :--- |
 | **`@google/genai`** | Artificial Intelligence | Official Google GenAI SDK. Powers server-side AI operations including the base64 vision analyzer and chatbot models. |
-| **`express`** | Backend Framework | High-performance full-stack Node.js server. Serves static client files, handles proxy APIs, parses raw JSON, and ensures private keys are isolated. |
-
+| **`express`** | Backend Framework | High-performance full-stack Node.js server. Serves static client files, handles proxy APIs, parses raw JSON, and ensures private keys are isolated.|
 | **`zustand`** | State Management | Central client state manager. Controls auth profiles, stores active issue states, handles upvoting logs, and houses offline synchronization flags. |
 | **`recharts`** | Data Visualization | D3-based charting engine. Powers the Admin dashboard analytics, displaying historical issue completion rates and department performance lines. |
 | **`motion`** | Animation Engine | Implemented from `motion/react`. Powers fluid route entries, staggered card listings, slide transitions in the service carousel, and notification alerts. |
