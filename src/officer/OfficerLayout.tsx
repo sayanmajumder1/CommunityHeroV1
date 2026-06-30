@@ -44,13 +44,6 @@ export default function OfficerLayout() {
     toast.success('Signed out of Municipal Officer operations console');
   };
 
-  const runVerificationSweep = () => {
-    toast.loading('Running AI incident verification sweep...');
-    setTimeout(() => {
-      toast.success('Sweep completed! No duplication discrepancies found.');
-    }, 1200);
-  };
-
   const officerNav = [
     { name: 'Ops Dashboard', href: '/officer/dashboard', icon: Home, badge: 'ACTIVE' },
     { name: 'Assigned Issues', href: '/officer/issues', icon: CheckSquare, badge: 'SLA' },
@@ -124,17 +117,7 @@ export default function OfficerLayout() {
         </div>
 
         {/* Sidebar Footer block */}
-        <div className="p-4 border-t border-slate-200 space-y-3">
-          {!isCollapsed && (
-            <button 
-              onClick={runVerificationSweep}
-              className="w-full flex items-center justify-center gap-2 px-3 py-2 bg-slate-100 hover:bg-slate-200 border border-slate-200 rounded-xl text-[11px] font-bold text-slate-700 transition cursor-pointer"
-            >
-              <RefreshCw className="w-3.5 h-3.5" />
-              <span>Verify Duplication Sweep</span>
-            </button>
-          )}
-
+        <div className="p-4 border-t border-slate-200">
           <button 
             onClick={handleLogout}
             className={`w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs font-bold text-red-500 hover:bg-red-50 border border-transparent hover:border-red-100 transition cursor-pointer ${
@@ -160,11 +143,7 @@ export default function OfficerLayout() {
               <Menu className="w-5 h-5" />
             </button>
 
-            <div className="hidden lg:flex items-center gap-2 bg-slate-100 px-3 py-1.5 rounded-xl border border-slate-200">
-              <Layers className="w-3.5 h-3.5 text-slate-400" />
-              <span className="text-[10px] font-extrabold text-slate-500 tracking-wider">ACTIVE QUEUE:</span>
-              <span className="text-xs font-bold text-slate-900">Central Ward Operations</span>
-            </div>
+
 
             <div className="flex items-center gap-2 text-xs font-bold text-slate-600 bg-slate-100 px-3 py-1.5 rounded-xl">
               <Clock className="w-3.5 h-3.5 text-emerald-600" />
@@ -324,18 +303,7 @@ export default function OfficerLayout() {
                 </nav>
               </div>
 
-              <div className="border-t border-slate-200 pt-4 space-y-3">
-                <button 
-                  onClick={() => {
-                    setIsMobileMenuOpen(false);
-                    runVerificationSweep();
-                  }}
-                  className="w-full flex items-center justify-center gap-2 px-4 py-2 bg-slate-100 hover:bg-slate-200 border border-slate-200 rounded-xl text-xs font-bold transition cursor-pointer"
-                >
-                  <RefreshCw className="w-4 h-4" />
-                  <span>Verify Sweep</span>
-                </button>
-
+              <div className="border-t border-slate-200 pt-4">
                 <button 
                   onClick={handleLogout}
                   className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-red-50 hover:bg-red-100 border border-red-100 rounded-xl text-xs font-bold text-red-600 transition cursor-pointer"

@@ -261,7 +261,7 @@ export default function App() {
       <BrowserRouter>
         {/* Auth Redirect Handler prevents infinite loops */}
         <AuthRedirectHandler>
-          <FloatingChatbot />
+          {user && user.role !== 'Guest' && <FloatingChatbot />}
           <div id="app-container">
             <Routes>
               {/* LANDING PAGE (Public) */}

@@ -1,7 +1,8 @@
 <div align="center">
-  <img width="1200" height="400" alt="CivicConnect Banner" src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&h=400&q=80" style="border-radius: 1.5rem; object-fit: cover; margin-bottom: 2rem;" referrerPolicy="no-referrer" />
+  <img width="1200" height="400" alt="CivicConnect Banner" src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&h=400&q=80" style="border-radius: 1.5rem; object-fit: cover; margin-bottom: 1rem;" referrerPolicy="no-referrer" />
+  <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" style="border-radius: 1.5rem; object-fit: cover; margin-bottom: 2rem;" />
   
-  # CivicConnect AI
+  # Community Hero - Hyperlocal Problem Solver
   ### Automated Municipal Dispatch, Real-Time Geo-Tracking, and Gamified Civic Alliance Portal
   
   [![Full-Stack App](https://img.shields.io/badge/Architecture-Full--Stack%20(React%20+%20Express)-emerald?style=for-the-badge)](https://ai.studio/build)
@@ -10,6 +11,17 @@
   [![Gemini 3.5 Flash](https://img.shields.io/badge/AI_Engine-Gemini%203.5%20Flash%20(Official%20SDK)-blue?style=for-the-badge&logo=google-gemini)](https://ai.google.dev)
   [![Firebase](https://img.shields.io/badge/Database-Firebase%20Firestore%20%26%20Auth-ffca28?style=for-the-badge&logo=firebase)](https://firebase.google.com)
 </div>
+
+---
+
+## 📌 Background
+
+Communities frequently face issues such as potholes, water leakages, damaged streetlights, waste management concerns, and public infrastructure challenges. Reporting these issues is often fragmented, difficult to track, and lacks transparency.
+
+## 🎯 Challenge
+
+Build a platform that enables citizens to identify, report, validate, track, and resolve community issues through collaboration, data, and intelligent automation.
+The solution should encourage transparency, accountability, and community participation.
 
 ---
 
@@ -31,10 +43,10 @@
 
 ## 1. Project Title & Mission
 
-### **CivicConnect AI**
+### **Community Hero - Hyperlocal Problem Solver**
 > *Empowering citizens, empowering officers, and automating city dispatch queues to streamline public infrastructure restoration with complete transparency.*
 
-**CivicConnect AI** is a fully functional, production-ready, full-stack municipal management and civic engagement application. Built on **React 19**, **Zustand**, and **Express.js**, the platform utilizes advanced **Google Gemini 3.5 Flash** models to automatically scan, categorize, and prioritize civic issues (like potholes, water leaks, and damaged streetlights) before seamlessly routing them to dedicated Department Officers and providing a completely synchronized, real-time dispatch dashboard.
+**Community Hero** is a fully functional, production-ready, full-stack municipal management and civic engagement application. Built on **React 19**, **Zustand**, and **Express.js**, the platform utilizes advanced **Google Gemini 3.5 Flash** models to automatically scan, categorize, and prioritize civic issues (like potholes, water leaks, and damaged streetlights) before seamlessly routing them to dedicated Department Officers and providing a completely synchronized, real-time dispatch dashboard.
 
 ---
 
