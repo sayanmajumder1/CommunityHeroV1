@@ -203,7 +203,7 @@ CivicConnect AI is engineered around a comprehensive Google stack to maximize se
                |                                      |
                v                                      v
     +----------------------------------------------------+
-    |           DATABASE WRITTEN (Cloud Firestore)       |
+    |                DATABASE WRITTEN                    |
     +----------------------------------------------------+
                            |
                            v
