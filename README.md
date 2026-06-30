@@ -150,8 +150,7 @@ To support this rich feature set, the project imports **18 major open-source dep
 | :--- | :--- | :--- |
 | **`@google/genai`** | Artificial Intelligence | Official Google GenAI SDK. Powers server-side AI operations including the base64 vision analyzer and chatbot models. |
 | **`express`** | Backend Framework | High-performance full-stack Node.js server. Serves static client files, handles proxy APIs, parses raw JSON, and ensures private keys are isolated. |
-| **`firebase`** | Database / Auth | Client-side Firebase SDK. Connects components directly to authenticated sessions and synchronizes offline-saved issues to Cloud Firestore. |
-| **`firebase-admin`** | Database / Security | Server-side Firebase SDK. Used for high-privilege operations such as verifying admin tokens and validating administrative database rules. |
+
 | **`zustand`** | State Management | Central client state manager. Controls auth profiles, stores active issue states, handles upvoting logs, and houses offline synchronization flags. |
 | **`recharts`** | Data Visualization | D3-based charting engine. Powers the Admin dashboard analytics, displaying historical issue completion rates and department performance lines. |
 | **`motion`** | Animation Engine | Implemented from `motion/react`. Powers fluid route entries, staggered card listings, slide transitions in the service carousel, and notification alerts. |
