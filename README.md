@@ -155,8 +155,7 @@ To support this rich feature set, the project imports **18 major open-source dep
 | **`motion`** | Animation Engine | Implemented from `motion/react`. Powers fluid route entries, staggered card listings, slide transitions in the service carousel, and notification alerts. |
 | **`react-router`** | Routing | Controls client-side layout structures (`CitizenLayout`, `OfficerLayout`, `AdminLayout`) and facilitates seamless single-page-app navigation. |
 | **`@tailwindcss/vite`** | Styling Compiler | Official Vite integration for Tailwind v4. Compiles high-speed modern utility classes directly during the Vite bundle phase. |
-| **`tailwindcss`** | CSS Utility | Core styling engine. Drives the high-contrast UI theme, custom dark-slate layouts, and fully responsive grid patterns. |
-| **`@vis.gl/react-google-maps`** | Mapping Platform | Official Google React wrapper. Integrates rich maps into Citizen & Officer dashboards, displaying geospatial markers for active reports. |
+| **`tailwindcss`** | CSS Utility | Core styling engine. Drives the high-contrast UI theme, custom dark-slate layouts, and fully responsive grid patterns.|
 | **`leaflet`** | Alternative Mapping | High-performance open-source mapping engine. Acts as a lightweight geospatial alternative and rendering engine for map coordinates. |
 | **`lucide-react`** | Icon Assets | Unified vector icon engine. Standardizes pixel-perfect icons across headers, sidebars, buttons, and department lists. |
 | **`react-hook-form`** | Form Handling | Optimizes rendering performance during complex visual issue reporting and citizen signup validations. |
